@@ -11,8 +11,8 @@ import java.util.Scanner;
 		
 		System.out.println("Please guess a number you have 5 attempts = ");
 		int guess = scanner.nextInt();
+		
 		for(int i = 0;i < 5; i++){
-			
 			if (guess < randomInt) {
 				System.out.println("Too low, try again. ");
 				guess = scanner.nextInt();
@@ -21,6 +21,7 @@ import java.util.Scanner;
 				guess = scanner.nextInt();
 			}else {
 			System.out.println("Congratulations! You've guessed the correct number");
+			scanner.close();
 			return;
 			}
 		}
