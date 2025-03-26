@@ -45,6 +45,5 @@ public class Module2 {
 		myBank.wit(-253.45);
 		myBank.dep(752.91);
 		myBank.listInteractions();
-	}
-	
+	}	
 }
